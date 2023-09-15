@@ -1,0 +1,17 @@
+This is Called as MVC - Model View Controller 
+
+main file -> server.js
+run -> nodemon server.js
+
+utils folder is to keep all the utilities 
+  --> In features file we will make a create token beacausee loginn wale code me bhi same code use krna hai usse accha ek alag se function bna lenge
+
+REST APIS
+POST  Register   http://localhost:5000/api/v1/users/new
+GET   GetMyProfile  http://localhost:5000/api/v1/users/me
+POST  Login    http://localhost:5000/api/v1/users/login
+GET   Logout   http://localhost:5000/api/v1/users/logout
+POST   NewTask  http://localhost:5000/api/v1/task/new
+GET   GetMyTask  http://localhost:5000/api/v1/task/my
+PUT  UpdateTask  http://localhost:5000/api/v1/task/65040425f8268de519a00b20
+DELETE  DelteTask   http://localhost:5000/api/v1/task/65040425f8268de519a00b20
